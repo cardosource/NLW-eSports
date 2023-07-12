@@ -7,3 +7,8 @@ No projeto NLW eSports, aproveitei essa comunidade para obter inspiração, comp
 
 
 [Projeto NLW eSports](https://www.figma.com/file/H70ubjTSFW1PjtIcEQUKUh/NLW-eSports-(Community)nlw-(Community)?type=design&node-id=6-23&mode=design&t=GV0zc8eSZG7aDtBR-0)
+
+
+[codepen NLW eSports](https://codepen.io/cardosource/pen/MWzrPVq)
+
+ 
