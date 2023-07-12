@@ -1,0 +1,81 @@
+@use '../modules/module'
+@use '../modules/mixin_module'
+@use 'mixi_layout'
+.inicio
+    
+    flex: 1
+    display: flex
+    @include mixin_module.mobile
+     @include mixin_module.displayuse(center,center,column)
+    &-campo
+        flex: 1
+        @include mixin_module.displayuse(center,center,column)
+        @include mixin_module.mobile
+          @include mixin_module.displayuse(center,center,column)
+
+        color: white
+       
+   
+    &-logo
+        flex: 1
+        @include mixin_module.displayuse(center,center,none)
+        
+      
+        
+ 
+.conteudo
+  
+    margin:  .5rem   
+    flex: 1
+    
+    @include mixin_module.displayuse(space-between,center,none)
+     
+    margin: 10px 10px 10px 10px
+    @include mixin_module.mobile
+     @include mixin_module.displayuse(none,none,column)
+     width: 100%
+     height: 20%
+    &-game
+        border-radius: 10px
+        margin: .2rem
+        width: 100%
+        height: 100%
+        
+    .game0
+        
+        @include mixi_layout.capaDojogo('../imagens/Apex Legends.svg')
+        background-size: cover
+        @include mixin_module.displayuse(end,none,column)  
+        @include mixi_layout.titulo 
+        cursor: pointer
+        
+    .game1
+        @include mixi_layout.capaDojogo('../imagens/Counter Strike.svg')
+        background-size: cover
+        @include mixin_module.displayuse(end,none,column)  
+        @include mixi_layout.titulo 
+        cursor: pointer
+    .game2
+        @include mixi_layout.capaDojogo('../imagens/Fortnite.svg')
+        background-size: cover
+        @include mixin_module.displayuse(end,none,column)   
+        @include mixi_layout.titulo 
+        cursor: pointer
+    .game3
+        @include mixi_layout.capaDojogo('../imagens/League of Legends.svg')
+        background-size: cover
+        @include mixin_module.displayuse(end,none,column)
+        @include mixi_layout.titulo 
+        cursor: pointer
+    .game4
+        @include mixi_layout.capaDojogo('../imagens/Dota 2.svg')
+        background-size: cover
+        @include mixin_module.displayuse(end,none,column)
+        @include mixi_layout.titulo
+        cursor: pointer
+    .game5
+        @include mixi_layout.capaDojogo('../imagens/World of Warcraft.svg')
+        background-size: cover
+        @include mixin_module.displayuse(end,none,column)
+        @include mixi_layout.titulo 
+        cursor: pointer

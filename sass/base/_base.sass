@@ -1,0 +1,28 @@
+@use 'variaveis.sass'
+@use '../modules/mixin_module'
+*
+    padding: 0
+    margin: 0
+    box-sizing: border-box
+
+body
+    background-image: variaveis.$background_img 
+  
+    background-size: cover
+    height: 100vh
+    display: flex
+    flex-direction: column
+    @include mixin_module.mobile
+     @include mixin_module.displayuse(center,center,column)
+   
+   
+     
+
+h1
+    font-family: 'Lato', sans-serif
+    font-family: 'Roboto Condensed', sans-serif
+
+h2,p
+    font-family: 'Lato', sans-serif
+    font-family: 'Roboto', sans-serif
+    

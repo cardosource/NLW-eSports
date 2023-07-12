@@ -1,0 +1,18 @@
+
+
+
+@mixin displayuse($just:none,$alig:none,$direct:none)
+   display: flex
+   align-items: $alig  
+   justify-content: $just  
+   flex-direction: $direct  
+ 
+@mixin mobile
+   @media screen and ( max-width: 820px)
+     @content
+
+
+
+
+   
+   
